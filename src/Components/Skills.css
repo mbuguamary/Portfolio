@@ -18,9 +18,11 @@
     margin-bottom: 10px;
     border: 10px 10px;
     border-color: aquamarine;
-    background-color: white;   
+    /* background-color: white;    */
+    flex-wrap: wrap;
 }
-.image-1 div{
-    margin-left: 10px;
-   
+
+h5{
+    color: white;
+    text-align: center;
 }

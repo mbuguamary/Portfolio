@@ -17,30 +17,38 @@ const Skills = () => {
         <p>These are the technologies i Have worked with</p>
         <div className='image-1'>
             <div>
-            <img src={HTML}/>
+            <img src={HTML} alt="Html"/>
+            <h5>HTML</h5>
             </div>
             <div>
-            <img src={CSS}/>
+            <img src={CSS} alt="Css"/>
+            <h5>Css</h5>
             </div>
             <div>
-            <img src={JavaScript}/>
+            <img src={JavaScript} alt="Javascript"/>
+            <h5>Javascript</h5>
             </div>
             <div>
-            <img src={ReactImg}/>
+            <img src={ReactImg} alt="React"/>
+            <h5>React</h5>
             </div>
         </div>
         <div className='image-2'>
         <div>
-            <img src={JAVA}/>
+            <img src={JAVA} alt="Java"/>
+            <h5>Java</h5>
             </div>
             <div>
-            <img src={Node}/>
+            <img src={Node} alt="Node"/>
+            <h5>Node</h5>
             </div>
             <div>
-            <img src={GitHub}/>
+            <img src={GitHub} alt="Github"/>
+            <h5>Github</h5>
             </div>
             <div>
-            <img src={POSTGRESQL}/>
+            <img src={POSTGRESQL} alt="Postgresql"/>
+            <h5>Postgresql</h5>
             </div>
         </div>
         </div>
