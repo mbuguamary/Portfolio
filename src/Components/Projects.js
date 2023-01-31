@@ -8,21 +8,24 @@ import {
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
 import './Project.css';
-import { Document,Page } from 'react-pdf/dist/esm/entry.webpack';
-import pdfFile from '../Images/CV.pdf'
+import sacco from '../Images/sacco.jpg';
+import helpdesk from '../Images/helpdesk.png';
+import travel from '../Images/travel.jpg';
 
 const Projects = () => {
   return (
     <div className='projects'>
        <h1>Projects</h1> 
+       <div className='project-icons'>
        <div>
-
+        <img  src={sacco} alt='Sacco'/>
        </div>
        <div>
-
+       <img  src={helpdesk} alt='Help Desk'/>
        </div>
        <div>
-
+       <img  src={travel} alt='Travel'/>
+       </div>
        </div>
        <div className='social-icons'>
         <h1>Social Icons</h1>
