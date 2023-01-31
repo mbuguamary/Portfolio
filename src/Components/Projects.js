@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import './Project.css';
 import sacco from '../Images/sacco.jpg';
-import helpdesk from '../Images/helpdesk.png';
+import helpdesk from '../Images/helpdesk.jpg';
 import travel from '../Images/travel.jpg';
 
 const Projects = () => {
@@ -18,12 +18,15 @@ const Projects = () => {
        <h1>Projects</h1> 
        <div className='project-icons'>
        <div>
+        <h3>Sacco Website</h3>
         <img  src={sacco} alt='Sacco'/>
        </div>
        <div>
+        <h3>Help desk App</h3>
        <img  src={helpdesk} alt='Help Desk'/>
        </div>
        <div>
+        <h3>Travel Website</h3>
        <img  src={travel} alt='Travel'/>
        </div>
        </div>
