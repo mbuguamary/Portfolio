@@ -1,0 +1,13 @@
+
+.projects{
+    padding: 10px 10%;
+}
+
+
+.social-icons ul a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20px;
+    justify-content: space-between;
+}
