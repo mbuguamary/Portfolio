@@ -25,7 +25,7 @@ const Projects = () => {
 
        </div>
        <div className='social-icons'>
-        <h6>Social Icons</h6>
+        <h1>Social Icons</h1>
         <ul>
             
         <a href="https://github.com/mbuguamary"
@@ -54,6 +54,7 @@ const Projects = () => {
        <Document file={pdfFile}>
         {/* <Page pageNumber={1} /> */}
       </Document>
+      <h3>View CV</h3>
       </button>
        </div>
        {/* <div><button > <a href='Images/CV.pdf' download={Images/CV.pdf}></a>Download Resume</button></div> */}
