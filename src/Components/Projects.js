@@ -50,12 +50,7 @@ const Projects = () => {
 
        </div>
        <div>
-        <button className='btn'>
-       <Document file={pdfFile}>
-        {/* <Page pageNumber={1} /> */}
-      </Document>
-      <h3>View CV</h3>
-      </button>
+       
        </div>
        {/* <div><button > <a href='Images/CV.pdf' download={Images/CV.pdf}></a>Download Resume</button></div> */}
  

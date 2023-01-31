@@ -27,3 +27,19 @@
 .txt{
  font-size: 20px;
 }
+.btn1{
+    align-items: center;
+    width: 35%;
+    height: 10vh;
+    background: aqua;
+    color: white  
+     
+}
+.h3{
+    font-size: 54px;
+    flex-wrap: wrap;
+}
+.btn1:hover{
+    background-color: white;
+    color: aqua;
+}
