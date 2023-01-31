@@ -8,6 +8,8 @@ import {
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
 import './Project.css';
+import { Document,Page } from 'react-pdf/dist/esm/entry.webpack';
+import pdfFile from '../Images/CV.pdf'
 
 const Projects = () => {
   return (
@@ -47,7 +49,15 @@ const Projects = () => {
         </ul>
 
        </div>
+       <div>
+        <button className='btn'>
+       <Document file={pdfFile}>
+        {/* <Page pageNumber={1} /> */}
+      </Document>
+      </button>
+       </div>
        {/* <div><button > <a href='Images/CV.pdf' download={Images/CV.pdf}></a>Download Resume</button></div> */}
+ 
   </div>
   )
 }
