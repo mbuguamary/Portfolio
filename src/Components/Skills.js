@@ -24,10 +24,10 @@ const Skills = () => {
             <img src={CSS} alt="Css"/>
             <h5>Css</h5>
             </div>
-            <div>
+            {/* <div>
             <img src={JavaScript} alt="Javascript"/>
             <h5>Javascript</h5>
-            </div>
+            </div> */}
             <div>
             <img src={ReactImg} alt="React"/>
             <h5>React</h5>
@@ -38,10 +38,10 @@ const Skills = () => {
             <img src={JAVA} alt="Java"/>
             <h5>Java</h5>
             </div>
-            <div>
+            {/* <div>
             <img src={Node} alt="Node"/>
             <h5>Node</h5>
-            </div>
+            </div> */}
             <div>
             <img src={GitHub} alt="Github"/>
             <h5>Github</h5>
