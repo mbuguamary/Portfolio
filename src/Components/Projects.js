@@ -20,14 +20,18 @@ const Projects = () => {
        <div>
         <h3>Sacco Website</h3>
         <img  src={sacco} alt='Sacco'/>
+        
+       <h3>This is a web application <br/>where sacco members can  <br/>view their diviends,apply <br/>for loans </h3>
        </div>
        <div>
         <h3>Help desk App</h3>
        <img  src={helpdesk} alt='Help Desk'/>
+       <h3>This is a web application <br/>where users can raise tickets <br/>to IT Department For Help</h3>
        </div>
        <div>
         <h3>Travel Website</h3>
        <img  src={travel} alt='Travel'/>
+       <h3>This is a website where <br/> users can view travel <br/>information and book for <br/>holidays</h3>
        </div>
        </div>
        <div className='social-icons'>
