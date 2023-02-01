@@ -7,6 +7,7 @@ import {
   faInstagram,
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
+import './Contact.css';
 const Contact = () => {
   return (
     <div className='contact'>
@@ -40,6 +41,7 @@ const Contact = () => {
         <input text='name' placeholder='Name'/>
         <input text='name' placeholder='Email'/>
         <textarea placeholder='Message'/>
+        <button>Send Message</button>
        </div>
     </div>
   )
