@@ -8,6 +8,7 @@ import Node from '../Images/node.png'
 import GitHub from '../Images/github.png'
 import JAVA from '../Images/java.png'
 import POSTGRESQL from '../Images/postgresql.jpeg'
+import Rails from '../Images/rails.jpg'
 
 
 const Skills = () => {
@@ -24,24 +25,33 @@ const Skills = () => {
             <img src={CSS} alt="Css"/>
             <h5>Css</h5>
             </div>
-            {/* <div>
+            <div>
             <img src={JavaScript} alt="Javascript"/>
             <h5>Javascript</h5>
-            </div> */}
+            </div>
+            </div>
+            <div className='image-2'>
             <div>
             <img src={ReactImg} alt="React"/>
             <h5>React</h5>
             </div>
-        </div>
-        <div className='image-2'>
-        <div>
+        
+        
+           <div>
             <img src={JAVA} alt="Java"/>
             <h5>Java</h5>
             </div>
-            {/* <div>
+            <div>
             <img src={Node} alt="Node"/>
             <h5>Node</h5>
-            </div> */}
+            </div>
+            </div>
+            <div className='image-3'>
+            <div>
+            <img src={Rails} alt="Node"/>
+            <h5>Ruby on Rails</h5>
+            </div>
+            
             <div>
             <img src={GitHub} alt="Github"/>
             <h5>Github</h5>
