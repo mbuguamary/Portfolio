@@ -34,3 +34,16 @@ margin-top: 100px;
 .message label{
     margin: 10px;
 }
+.footer h5{
+    color: white;
+    align-items: center;
+    font-size: larger;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer span{
+    color: aqua;
+}
