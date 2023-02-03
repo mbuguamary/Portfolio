@@ -40,6 +40,7 @@ code {
   margin: 10px 20px;
   text-decoration: none;
   color: white;
+  
 }
 .link:hover{
   background-color: aqua;
@@ -65,4 +66,15 @@ code {
 }
 .home h1 span{
   color:aqua
+}
+
+@media (max-width:940px) {
+  .link{
+    display: block;
+    list-style: none;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: white;
+    
+  }
 }

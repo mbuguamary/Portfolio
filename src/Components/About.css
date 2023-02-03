@@ -29,7 +29,7 @@
 }
 .btn1{
     align-items: center;
-    width: 35%;
+    width: 10vw;
     height: 10vh;
     background: aqua;
     color: white  
@@ -42,4 +42,9 @@
 .btn1:hover{
     background-color: white;
     color: aqua;
+}
+@media (max-width:940px) {
+    .btn1{
+        width: 30vw;
+    }
 }
