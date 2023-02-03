@@ -34,11 +34,19 @@ code {
   color: aqua;
 }
 
-nav ul li{
+.link{
   display: inline;
   list-style: none;
   margin: 10px 20px;
+  text-decoration: none;
+  color: white;
 }
+.link:hover{
+  background-color: aqua;
+  color: black;
+  
+}
+
 .home{
   display: flex;
   flex-direction: row;
