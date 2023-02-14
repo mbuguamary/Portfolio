@@ -19,12 +19,12 @@ const Projects = () => {
        <div>
         <h3>Help desk App</h3>
        <img  src={helpdesk} alt='Help Desk'/>
-       <h3>This is a web application <br/>where users can raise tickets <br/>to IT Department For Help</h3>
+       <h3>This is a web application <br/>where users can raise tickets <br/>on various issues to IT<br/> Department For Help</h3>
        </div>
        <div>
         <h3>Travel Website</h3>
        <img  src={travel} alt='Travel'/>
-       <h3>This is a website where <br/> users can view travel <br/>information and book for <br/>holidays</h3>
+       <h3>This is a website where <br/> users can view travel <br/>information and book for <br/>Activities</h3>
        </div>
        </div>
        

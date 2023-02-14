@@ -37,7 +37,7 @@ const Contact = () => {
 
        </div> 
        <div className='message'>
-        <label>Message me</label>
+        <p>Message me</p>
         <input text='name' placeholder='Name'/>
         <input text='name' placeholder='Email'/>
         <textarea placeholder='Message'/>

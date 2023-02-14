@@ -12,8 +12,9 @@ const Home = () => {
         <div className='rows-2'>
         <img src={mary} alt='img'/>
        </div>
-        
+       
     </div>
+    
   )
 }
 
