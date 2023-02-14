@@ -8,11 +8,14 @@ import About from './Components/About';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <Navbar/>
     <Routes>
     <Route path='/' element={<App />}/>
    
@@ -21,6 +24,7 @@ root.render(
     <Route path='/Projects' element={<Projects />}/>
     <Route path='/Contact' element={<Contact />}/>
     </Routes>
+    <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );
