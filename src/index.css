@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
@@ -77,4 +78,7 @@ code {
     color: white;
     
   }
+}
+h1,h3,h4,h5,p{
+  color:white;
 }
