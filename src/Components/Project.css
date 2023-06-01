@@ -21,6 +21,19 @@
 .social-icons ul a:hover{
     color: whitesmoke;
 }
+.imges{
+    border-radius: 2px;
+    background-color: whitesmoke;
+     margin-left: 10px; 
+    
+}
+img{
+    height:50vh;
+    width:100%
+}
+.imges h3{
+    color: black;
+}
 .project-icons{
 /* display: flex;
 flex-direction: row;
@@ -36,4 +49,7 @@ gap: 1rem;
     padding: 10px;
    
     
+}
+ .a{
+    color:red
 }
