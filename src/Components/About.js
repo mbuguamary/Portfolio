@@ -16,7 +16,7 @@ const About = () => {
                 <p className='txt'>I am passionate about building excellent software that improves
             the lives of those around me. I specialize in creating software
             for clients ranging from individuals and small-businesses all the
-            way to large enterprise corporations. Looking forward to interact in web development Projects.</p>
+            way to large enterprise corporations. Looking forward to interact in web development projects.</p>
             </div>
             <div className='row-1'>
                 <button className='btn1'>
